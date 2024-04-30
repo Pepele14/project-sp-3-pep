@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
+import apiKey from "../../config";
 
 const API_URL = "https://api.nasa.gov/planetary/apod?";
 
@@ -12,7 +13,7 @@ function Background() {
       try {
         const response = await axios.get(API_URL, {
           params: {
-            api_key: API_KEY,
+            api_key: apiKey.key,
           },
         });
 
