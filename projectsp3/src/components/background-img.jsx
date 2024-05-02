@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import apiKey from "../../config";
 
 const API_URL = "https://api.nasa.gov/planetary/apod?";
+// const API_KEY = "LVrcHgmGPmff2gjfYYKuxRoYw9PjNRTXOO1gFjMh";
 
 function Background() {
   const [imageUrl, setImageUrl] = useState(null);
@@ -28,21 +29,21 @@ function Background() {
 
   return (
     imageUrl && (
-      <div
-        className="Background-Img"
-        style={{ margin: "0", padding: "0", border: "0" }}
-      >
-        <img
-          src={imageUrl}
-          style={{
-            backgroundImage: `url(${imageUrl})`,
-            width: "100%",
-            height: "100vh",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
-        />
-      </div>
+      //   <div
+      //     className="Background-Img"
+      //     style={{ margin: "0", padding: "0", border: "0" }}
+      //   >
+      <img
+        src={imageUrl}
+        style={{
+          backgroundImage: `url(${imageUrl})`,
+          width: "100%",
+          height: "100vh",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      />
+      //   </div>
     )
   );
 }
