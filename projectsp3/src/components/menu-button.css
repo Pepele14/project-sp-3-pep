@@ -1,0 +1,14 @@
+.navbar-toggler {
+  /* Remove background styles */
+  background: none;
+  border: none; /* Optionally, remove border */
+}
+
+.container-fluid {
+  background-color: none;
+}
+
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background-color: none;
+}
