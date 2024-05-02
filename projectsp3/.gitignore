@@ -15,7 +15,7 @@ dist
 dist-ssr
 *.local
 .env
-config.js
+configs.js
 package-lock.json
 
 # Editor directories and files
