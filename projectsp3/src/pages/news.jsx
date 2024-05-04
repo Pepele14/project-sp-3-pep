@@ -1,8 +1,14 @@
+import Header from "../components/header";
+import Footer from "../components/footer";
+import NewsSites from "../components/news-sites";
+import NewsArticles from "../components/news-articles";
+
 function News() {
   return (
     <div>
-      <h1>Whatever</h1>
-      <p>Test</p>
+      <Header />
+      <NewsArticles />
+      <NewsSites />
     </div>
   );
 }

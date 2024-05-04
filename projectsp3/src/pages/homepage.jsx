@@ -1,8 +1,13 @@
+import Header from "../components/header";
+import ImageNasa from "../components/image-nasa";
+import Footer from "../components/footer";
+
 function HomePage() {
   return (
-    <div>
-      <h1>Home Page</h1>
-      {/* Component here */}
+    <div style={{ position: "relative" }}>
+      <Header />
+      <ImageNasa />
+      <Footer />
     </div>
   );
 }

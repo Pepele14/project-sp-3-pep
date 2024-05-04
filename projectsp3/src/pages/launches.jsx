@@ -1,10 +1,9 @@
-import MenuButton from "../components/menu-button";
+import Header from "../components/header";
 
 function Launches() {
   return (
     <div>
-      <MenuButton />
-      <h1>Launches List</h1>
+      <Header />
     </div>
   );
 }

@@ -1,11 +1,10 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
-import apiKey from "../../configs";
-import { ssrModuleExportsKey } from "vite/runtime";
+import { apiKey } from "../../configs";
 
 const API_URL = "https://api.nasa.gov/planetary/apod?";
 
-function Background() {
+function ImageNasa() {
   const [imageUrl, setImageUrl] = useState(null);
   const [imageTitle, setImageTitle] = useState(null);
   const [imageDate, setImageDate] = useState(null);
@@ -47,7 +46,7 @@ function Background() {
           alt="NASA"
           style={{
             width: "100%",
-            height: "100vh",
+            height: "80vh",
             objectFit: "cover",
           }}
         />
@@ -148,4 +147,4 @@ function Background() {
   );
 }
 
-export default Background;
+export default ImageNasa;
