@@ -35,7 +35,7 @@ function NewsSites() {
   return (
     <div className="container">
       <div className="row">
-        <h3>News Websites List</h3>
+        {/* <h3>News Websites List</h3> */}
         {newsUrl.map((url, index) => (
           <div className="col-md-3" key={index}>
             <div className="card my-2">

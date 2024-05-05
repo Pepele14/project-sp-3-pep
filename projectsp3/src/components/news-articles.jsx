@@ -29,7 +29,9 @@ function NewsArticles() {
   return (
     <div className="container">
       <div className="row">
-        <h3>News</h3>
+        <div style={{ textAlign: "center" }}>
+          <h3>News</h3>
+        </div>
         {articles.map((article, index) => (
           <div className="col-md-4" key={index}>
             <div className="card my-2">

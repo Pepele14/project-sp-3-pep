@@ -7,7 +7,6 @@ function HomePage() {
     <div style={{ position: "relative" }}>
       <Header />
       <ImageNasa />
-      <Footer />
     </div>
   );
 }

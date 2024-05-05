@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
 import "./header.css";
+import home1 from "../assets/home1.png";
+import profileImg from "../assets/pepefr.jpg";
 
 function Header() {
   return (
     <header>
-      <div className="container">
+      <div className="container-fluid">
         {/* my logo here below */}
         <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
           <a
@@ -13,14 +15,14 @@ function Header() {
           >
             <img
               className="bi me-2"
-              src="/assets/logo.png"
+              src={home1}
               alt="F-OBS Logo"
-              width="40"
-              height="32"
+              width="20"
+              height="20"
             />
           </a>
 
-          <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <ul className="nav col-8 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
             <li>
               <Link to="/Launches" className="nav-link px-2 link-body-emphasis">
                 Launches
@@ -41,7 +43,7 @@ function Header() {
               aria-expanded="false"
             >
               <img
-                src="https://github.com/mdo.png"
+                src={profileImg}
                 alt="mdo"
                 width="32"
                 height="32"
@@ -50,19 +52,9 @@ function Header() {
             </Link>
             <ul className="dropdown-menu text-small">
               <li>
-                <a className="dropdown-item" href="#">
-                  New project...
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item" href="#">
-                  Settings
-                </a>
-              </li>
-              <li>
-                <a className="dropdown-item" href="#">
+                <Link to="/profile" className="dropdown-item">
                   Profile
-                </a>
+                </Link>
               </li>
               <li>
                 <hr className="dropdown-divider" />

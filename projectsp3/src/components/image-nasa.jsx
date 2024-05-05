@@ -46,7 +46,7 @@ function ImageNasa() {
           alt="NASA"
           style={{
             width: "100%",
-            height: "80vh",
+            height: "91.1vh",
             objectFit: "cover",
           }}
         />
@@ -69,7 +69,7 @@ function ImageNasa() {
         <div style={{ position: "relative" }}>
           <p
             style={{
-              color: "red",
+              color: "white",
               position: "absolute",
               zIndex: 1,
               bottom: "10px",

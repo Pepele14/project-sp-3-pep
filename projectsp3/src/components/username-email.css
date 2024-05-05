@@ -1,0 +1,96 @@
+label img {
+  height: 15px;
+  width: 15px;
+  margin: 0 30px;
+}
+
+.CreateProfilePage h3 {
+  margin: 10px 0;
+  text-align: center;
+  color: black;
+}
+
+.card {
+  margin: 10px 10px;
+  padding: 30px 30px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputs {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background: #979797;
+  width: 600px;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 300px;
+  height: 30px;
+  background: #eaeaea;
+  border-radius: 6px;
+}
+
+.input input {
+  height: 15px;
+  width: 200px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #797979;
+  font-size: 13px;
+}
+.submit-container {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: center;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  color: white;
+  background: black;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 400;
+  cursor: pointer;
+  margin-bottom: 7px;
+}
+
+.last-submitted-info {
+  justify-content: center;
+  align-items: center;
+  color: #eaeaea;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background: #979797;
+  width: 600px;
+  height: 150px;
+  border-radius: 6px;
+}
+
+.picture-input {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 300px;
+  height: 30px;
+  background: #eaeaea;
+  border-radius: 6px;
+  font-size: 11px;
+}
