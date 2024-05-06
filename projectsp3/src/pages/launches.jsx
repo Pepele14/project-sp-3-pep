@@ -7,6 +7,7 @@ function Launches() {
     <div>
       <Header />
       <LaunchesData />
+      <Footer />
     </div>
   );
 }

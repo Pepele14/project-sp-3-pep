@@ -9,6 +9,7 @@ function News() {
       <Header />
       <NewsArticles />
       <NewsSites />
+      <Footer />
     </div>
   );
 }

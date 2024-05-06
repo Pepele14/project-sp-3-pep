@@ -6,3 +6,7 @@ header {
 .nav-link {
   color: beige !important;
 }
+
+.nav-link:hover {
+  color: rgb(243, 252, 0) !important;
+}

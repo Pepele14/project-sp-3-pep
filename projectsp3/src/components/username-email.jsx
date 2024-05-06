@@ -7,7 +7,7 @@ import camera from "../assets/camera.png";
 import defaultProfileImage from "../assets/profile-user.png";
 import "./username-email.css";
 
-const API_URL = "http://localhost:3001";
+const API_URL = "https://json-server-be.adaptable.app/profile";
 
 function UserNameEmailForm() {
   const [text, setText] = useState("");
@@ -28,13 +28,12 @@ function UserNameEmailForm() {
 
     const requestBody = { username: newText, email: newDescription };
     axios
-      .post(`${API_URL}/profile`, requestBody)
+      .post(`${API_URL}`, requestBody)
       .then((response) => {
         setLastSubmittedUsername(newText);
         setLastSubmittedEmail(newDescription);
         navigate("/profile");
         console.log("posted successfully");
-        console.log(API_URL);
       })
       .catch((error) => console.log(error));
   };
