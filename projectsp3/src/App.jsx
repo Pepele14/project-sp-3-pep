@@ -13,6 +13,7 @@ function App() {
         <Route path="/launches" element={<Launches />} />
         <Route path="/news" element={<News />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/profile/:userId" element={<Profile />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </div>

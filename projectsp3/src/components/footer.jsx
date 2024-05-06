@@ -2,7 +2,7 @@ import "./footer.css";
 
 function Footer() {
   return (
-    <footer className="py-3 my-4" style={{ background: "black" }}>
+    <footer className="py-3" style={{ background: "black" }}>
       <ul className="nav justify-content-center border-bottom pb-3 mb-3">
         <li className="nav-item">
           <a href="/" className="nav-link px-2 text-body-secondary">

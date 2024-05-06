@@ -68,6 +68,11 @@ label img {
   font-weight: 400;
   cursor: pointer;
   margin-bottom: 7px;
+  border: none;
+}
+
+.submit:hover {
+  background-color: green;
 }
 
 .last-submitted-info {
@@ -78,9 +83,9 @@ label img {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  background: #979797;
+  background: #000000;
   width: 600px;
-  height: 150px;
+  height: 350px;
   border-radius: 6px;
 }
 
@@ -93,4 +98,15 @@ label img {
   background: #eaeaea;
   border-radius: 6px;
   font-size: 11px;
+}
+
+.deleteButton {
+  border-radius: 6px;
+  border: none;
+  background-color: rgb(255, 121, 121);
+  color: white;
+}
+
+.deleteButton:hover {
+  background-color: red;
 }
