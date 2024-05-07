@@ -7,7 +7,7 @@ label img {
 .CreateProfilePage h3 {
   margin: 10px 0;
   text-align: center;
-  color: black;
+  color: #ffffff;
 }
 
 .card {
@@ -83,7 +83,7 @@ label img {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  background: #000000;
+  background: #979797;
   width: 600px;
   height: 350px;
   border-radius: 6px;
@@ -109,4 +109,25 @@ label img {
 
 .deleteButton:hover {
   background-color: red;
+}
+
+.the-cool-div {
+  border: 2px solid black;
+  padding: 30px 150px;
+  border-radius: 6px;
+  background: white;
+  color: black;
+  font-size: 18px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+p {
+  margin-top: 1rem;
+}
+
+.card-profile-details {
+  border-radius: 6px;
 }

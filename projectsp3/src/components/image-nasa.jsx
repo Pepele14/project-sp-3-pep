@@ -45,9 +45,10 @@ function ImageNasa() {
           src={imageUrl}
           alt="NASA"
           style={{
-            width: "100%",
+            width: "99.4%",
             height: "91.1vh",
             objectFit: "cover",
+            margin: "4px 4px",
           }}
         />
       )}

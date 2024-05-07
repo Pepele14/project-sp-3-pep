@@ -1,11 +1,14 @@
 import React from "react";
+import page404 from "../assets/404logo.png";
+import Header from "../components/header";
+import Footer from "../components/footer";
 
 function ErrorPage() {
   return (
     <div>
-      <h1>404 Not Found</h1>
-      <p>The page you are looking for does not exist.</p>
-      {/* Style the page */}
+      <Header />
+      <img src={page404} style={{ width: "100%" }}></img>
+      <Footer />
     </div>
   );
 }

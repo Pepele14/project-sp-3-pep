@@ -79,24 +79,41 @@ function UserNameEmailForm() {
   return (
     <div className="CreateProfilePage">
       <div className="card">
-        <h3>Profile Information</h3>
+        <div
+          className=".c"
+          style={{
+            border: "2px solid black",
+            width: "calc(600px - 4px)", // Half width minus border width and spacing
+            margin: "2px",
+            boxSizing: "border-box",
+            overflow: "hidden",
+            background: "black",
+            border: "radius 6px",
+          }}
+        >
+          <h3>Profile Details</h3>
+        </div>
         {lastSubmittedUsername && (
           <div className="last-submitted-info">
-            <div className="profile-image-container">
-              <img
-                height={"50px"}
-                width={"50px"}
-                src={
-                  profileImage
-                    ? URL.createObjectURL(profileImage)
-                    : defaultProfileImage
-                }
-                alt="Profile"
-                className="profile-image"
-              />
+            <div className="the-cool-div">
+              <div className="profile-image-container">
+                <img
+                  height={"50px"}
+                  width={"50px"}
+                  border-radius="50%"
+                  src={
+                    profileImage
+                      ? URL.createObjectURL(profileImage)
+                      : defaultProfileImage
+                  }
+                  alt="Profile"
+                  className="profile-image"
+                />
+              </div>
+              <p>{lastSubmittedUsername}</p>
+              <p>{lastSubmittedEmail}</p>
             </div>
-            <p>{lastSubmittedUsername}</p>
-            <p>{lastSubmittedEmail}</p>
+
             <button onClick={handleDelete} className="deleteButton">
               Delete
             </button>

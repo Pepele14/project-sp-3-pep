@@ -33,6 +33,11 @@ function Header() {
                 News
               </Link>
             </li>
+            <li>
+              <Link to="/Agencies" className="nav-link px-2 link-body-emphasis">
+                Agencies
+              </Link>
+            </li>
           </ul>
 
           <div className="dropdown text-end">

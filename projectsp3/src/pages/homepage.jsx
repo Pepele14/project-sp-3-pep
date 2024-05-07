@@ -11,7 +11,7 @@ function HomePage() {
       <Header />
       <Logo />
       <DSCOVRImages />
-      {/* <ImageNasa /> */}
+      <ImageNasa />
       <MarsImages />
       <Footer />
     </div>

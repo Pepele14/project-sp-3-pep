@@ -73,6 +73,7 @@ function DSCOVRImages() {
             <p>Date: {image.date}</p>
             <p>Latitude: {image.coordinates.lat}</p>
             <p>Longitude: {image.coordinates.lon}</p>
+            <p>DSCOVER Earth Polychromatic Imaging Camera (EPIC)</p>
           </div>
         </div>
       ))}
