@@ -88,7 +88,7 @@ function UserNameEmailForm() {
             boxSizing: "border-box",
             overflow: "hidden",
             background: "black",
-            border: "radius 6px",
+            borderRadius: "6px",
           }}
         >
           <h3>Profile Details</h3>
